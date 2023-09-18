@@ -1,0 +1,93 @@
+/* @import url(zagolovok.css); */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+head {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    
+    background-image: url(hsr_bg.jpeg);
+    background-size: 1530px; 
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    width: 80%;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 10%;
+    background-color: rgba(243, 243, 243, 0.901);
+}
+
+.logoimage {
+    width: 30%;
+    display: inline-block;
+}
+
+.logoim {
+   cursor: pointer; 
+}
+
+.zagolovok {
+    display: flex;
+    display: inline-block;
+}
+
+.zagolovok li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.seredina {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.sidebar {
+    width: 20%;
+    height: 2000px;
+    background-color: rgba(193, 184, 180, 0.901);
+}
+
+.content {
+    width: 60%;
+    height: 2000px;
+    background-color: rgba(243, 243, 243, 0.901);
+    
+}
+
+.left {
+    width: 400px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.right {
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 300px;
+    height: 700px;
+    border: 3px solid rgba(114, 93, 84, 0.901);
+    display: inline-block;
+}
+
+footer {
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    background-color: rgba(193, 184, 180, 0.901);
+    text-align: center;
+}
